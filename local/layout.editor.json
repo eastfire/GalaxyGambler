@@ -1,7 +1,6 @@
 {
   "version": "1.1.1",
   "windows": {
-    "worker": {},
     "main": {
       "main": true,
       "url": "app://editor/index.html",
@@ -33,7 +32,7 @@
                 "width": 204
               }
             ],
-            "height": 638,
+            "height": 639,
             "type": "dock-v",
             "width": 204
           },
@@ -48,7 +47,7 @@
                     ],
                     "height": 336,
                     "type": "panel",
-                    "width": 501.984375
+                    "width": 498.984375
                   },
                   {
                     "active": 0,
@@ -62,7 +61,7 @@
                 ],
                 "height": 336,
                 "type": "dock-h",
-                "width": 767.984375
+                "width": 765.984375
               },
               {
                 "active": 0,
@@ -73,12 +72,12 @@
                 ],
                 "height": 300,
                 "type": "panel",
-                "width": 767.984375
+                "width": 765.984375
               }
             ],
-            "height": 638,
+            "height": 639,
             "type": "dock-v",
-            "width": 767.984375
+            "width": 765.984375
           },
           {
             "active": 0,
@@ -86,7 +85,7 @@
               "inspector",
               "cocos-services"
             ],
-            "height": 638,
+            "height": 639,
             "type": "panel",
             "width": 304
           }
@@ -96,15 +95,20 @@
       "panels": [
         "hierarchy",
         "assets",
+        "scene",
         "node-library",
         "console",
         "timeline",
         "game-window",
         "inspector",
-        "cocos-services",
-        "scene"
+        "cocos-services"
       ]
-    }
+    },
+    "worker": {}
   },
-  "panels": {}
+  "panels": {},
+  "panelLabelWidth.inspector": null,
+  "panelLabelWidth": {
+    "inspector": null
+  }
 }
